@@ -1,6 +1,44 @@
 body {   
  background-color: lightblue;   
-}   
+} 
+.box{
+	width: 500px;
+	height: 500px;
+
+}
+
+.photo{
+	width: 120px;
+	height: 90px;
+	border-radius: 10px;
+	background: #70c236;
+	float: none;
+	align-content: center;
+	margin: 600px 0 0 100px;
+	
+}
+
+.photo{
+	font-family: 汉仪黑荔枝体简;
+	font-size: 2em;
+	color: #FFFFFF;
+	text-align: center;padding: 10px;
+	animation: photo 10s ease backwards;
+}
+
+@keyframes photo{
+	0{background-color: #70C236;transform: rotate(0);}
+	20%{transform: rotate(90deg);}
+	30%{transform: translateX(700px);background-color: aquamarine;}
+	50%{transform: rotate(-180deg);}
+	60%{transform: rotate(180deg);transform: translateY(200px);}
+	70%{transform: rotate(-180deg);}
+	80%{transform: rotate(180deg);transform: translateY(-200px);}
+	85%{background-color: chartreuse;transform: rotate(-180deg);}
+	90%{background-color: blue; transform: rotate(180deg);}
+	100%{transform: rotate(-180deg);}
+}  
+  
 .body {   
   width: 250px;   
   height: 250px;   
